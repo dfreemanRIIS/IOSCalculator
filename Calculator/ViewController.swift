@@ -1,11 +1,3 @@
-//
-//  ViewController.swift
-//  Calculator
-//
-//  Created by User on 12/4/16.
-//  Copyright © 2016 example. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
@@ -15,9 +7,7 @@ class ViewController: UIViewController {
     var res = Int()
     var num = Int()
     var op = String()
-    
     let resCalc = CalculatorModel()
-    
     
     @IBAction func clear(_ sender: UIButton) {
         res = 0
@@ -59,14 +49,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         op = "="
         resultsFld.text = ("\(res)")
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-
-
 }
-

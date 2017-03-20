@@ -1,11 +1,3 @@
-//
-//  CalculatorTests.swift
-//  CalculatorTests
-//
-//  Created by User on 12/4/16.
-//  Copyright © 2016 example. All rights reserved.
-//
-
 import XCTest
 @testable import Calculator
 
@@ -27,5 +19,4 @@ class CalculatorTests: XCTestCase {
     func testSub() {
         XCTAssertEqual(resCalc.sub(2, 1), 1)
     }
-    
 }
