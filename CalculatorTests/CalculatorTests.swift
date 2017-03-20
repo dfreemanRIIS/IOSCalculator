@@ -19,9 +19,13 @@ class CalculatorTests: XCTestCase {
     }
     
     func testAdd() {
-        XCTAssertEqual(resCalc.add(1, 1),2)
-        XCTAssertEqual(resCalc.add(1, 2),3)
-        XCTAssertEqual(resCalc.add(5, 4),9)
+        XCTAssertEqual(resCalc.add(1, 1), 2)
+        XCTAssertEqual(resCalc.add(1, 2), 3)
+        XCTAssertEqual(resCalc.add(5, 4), 9)
+    }
+    
+    func testSub() {
+        XCTAssertEqual(resCalc.sub(2, 1), 1)
     }
     
 }
