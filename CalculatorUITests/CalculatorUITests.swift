@@ -2,8 +2,8 @@
 //  CalculatorUITests.swift
 //  CalculatorUITests
 //
-//  Created by Donald Freeman on 3/20/17.
-//  Copyright © 2017 riis. All rights reserved.
+//  Created by User on 12/4/16.
+//  Copyright © 2016 example. All rights reserved.
 //
 
 import XCTest
