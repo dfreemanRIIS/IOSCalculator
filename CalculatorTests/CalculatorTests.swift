@@ -1,4 +1,5 @@
 import XCTest
+import Nimble
 @testable import Calculator
 
 class CalculatorTests: XCTestCase {
@@ -17,6 +18,6 @@ class CalculatorTests: XCTestCase {
     }
     
     func testSub() {
-        XCTAssertEqual(resCalc.sub(2, 1), 1)
+        expect(self.resCalc.sub(4, 1)) == 3
     }
 }
